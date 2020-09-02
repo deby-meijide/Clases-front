@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,td,th {
+            border: black solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1> 
+    </header>           
+        <main>
+            <section>
+                <h2>
+                    Estructura basica de una tabla
+                </h2>   
+                <table>  
+                    <tr> 
+                        <th>Curso</th>
+                        <th>Comision</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">JAVA</td>
+                        <!--<td>2009</td>-->
+                    </tr> 
+                    <tr>
+                        <td>PYTHON</td>
+                        <td rowspan="2">2000</td>
+                    </tr>   
+                    <tr>
+                        <td>PHP</td>
+                        <!--<td>2005</td>-->
+                    </tr>
+                </table> 
+            </section>
+            <section>
+                <h2>Estructura Completa de una Tabla</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pepe</td>
+                            <td>Perez</td>
+                        </tr>
+                        <tr>
+                            <td>Maria</td>
+                            <td>Lopez</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </section>    
+        </main>
+</body>
+</html>
