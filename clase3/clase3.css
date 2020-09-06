@@ -1,0 +1,26 @@
+body{
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+
+header{
+    background-color: lightblue;
+}
+
+div img{
+    width: 40%;
+    height: none; 
+    margin-top: 20px;  
+    float: right;
+}
+
+mark{
+    background-color: darkblue;
+    color: white;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    text-shadow: yellow 2px 5px;
+}
+
+nav{
+    position: absolute;
+    top:10%;
+    margin-bottom: 50px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 2px;
+    padding: 0%;
+    
+}
+
+li{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: darkgrey;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background: blue;
+    padding: 2px 4px;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+div img{
+    width: 20%;
+    height: 20%; 
+    float: right; 
+}
+
+footer{
+    text-align: center; 
+    font-family: cursive;
+}

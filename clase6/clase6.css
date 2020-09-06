@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #a36bff;
+}
+
+section{
+    background-color: #ffa36b;
+}
+
+article{
+    background-color: #ff687d;
+}
+
+footer{
+    background-color: #78dbbc;
+}
+
+span img{
+    width: 150px;
+    height: 200px;
+}
+
+/*Propiedades de Textos*/
+
+h1{
+    letter-spacing: 2px; /* acepta medidas absolutas, relativas y flexibles */
+    text-align: center; /* Left | Right | Justify */
+    text-shadow: 1px 2px #ff0000;
+}
+
+.parrafo1{
+    word-spacing: 5px;
+}
+
+.parrafo2{
+    text-transform: uppercase; /* lowercase | capitalize */
+}
+
+h3{
+    text-decoration: overline; /* underline | overline underline | line- through */
+    text-decoration-color: red; /* RGB | RGBA | HSL | HSLA | #XXXXXX */
+    text-decoraction-style: double; /* solid | wavy */
+}
+
+/*Bordes*/
+
+table{
+    border: 2px solid black; /* double | dotted */
+}
+
+td{
+    border-left: 1px dotted orange;
+    border-right: 1px solid green;
+    border-bottom: 1px double blue; 
+    border-top: 1px solid pink; 
+}
+
+button{
+    border-radius: 25px;
+    border: 1px solid red; 
+}
+
+ol li{
+    list-style-type: upper-alpha; /* upper-alpha | upper-roman | lower-alpha | lower-roman | none */
+}
+
+ul li{
+    list-style-type: circle; /* square | disc | none */
+}

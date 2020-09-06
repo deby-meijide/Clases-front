@@ -1,0 +1,23 @@
+body{
+    font-family: 'lato';
+    background-color:224,224,224,.5;
+}
+
+nav{
+    color:white;
+    text-align: justify;     
+}
+
+h1{
+    
+    text-align: center;
+}
+
+.pie{
+    text-align: center;
+}
+
+input{
+    background-color: blue;
+    color: white
+}

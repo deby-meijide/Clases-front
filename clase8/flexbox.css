@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+	font-family: Montserrat, serif;
+}
+
+.flex-container{
+    width: 50vw;
+    height: 50vh;
+    background-color: plum;
+    display: flex; 
+    flex-direction: row; /* row: valor por defecto | column: hace el eje principal (main axis) sea vertical | row-reverse | column-reverse*/
+    justify-content: ; /* alinea los elementos en el eje principal (main axis) */
+}
+
+.flex-item{
+    background-color: violet;
+    width: 10vw;
+    height: 15vh;
+}
+
+.flex-item2{
+    background-color: tomato;
+    width: 10vw;
+    height: 15vh;
+}

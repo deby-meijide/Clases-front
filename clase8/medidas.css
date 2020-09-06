@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family-Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Courier New', Courier, monospace;
+    html: 40px;
+}
+
+/* Medidas Absolutas */
+.cm{
+    font-size: 2cm;
+}
+
+.mm{
+    font-size: 5mm;
+}
+
+.px{
+    font-size: 20px; 
+}
+
+.pt{
+    font-size: 10pt;
+}
+
+.in{
+    font-size: 30pt;
+}
+
+.pc{
+    font-size: 1pc;
+}
+
+
+
+em{
+    font-size: 1em;
+}
+
+.padre-em{
+    font-size: 24px;
+}
+
+.rem{
+    font-size: 1rem;
+}
+
+img{
+    width: 30vw;
+    height: 30vh;
+}
