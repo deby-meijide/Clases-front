@@ -9,7 +9,7 @@ html {
     background-color: plum;
     display: flex; 
     flex-direction: row; /* row: valor por defecto | column: hace el eje principal (main axis) sea vertical | row-reverse | column-reverse*/
-    justify-content: ; /* alinea los elementos en el eje principal (main axis) */
+    justify-content: flex-start ; /* alinea los elementos en el eje principal (main axis) */
 }
 
 .flex-item{
