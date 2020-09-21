@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ------ first child y last child ----- */ 
+
+p:first-child{
+    background-color: violet;
+}
+
+p:last-child{
+    background-color: orange;
+}
+
+/* ------ nth child () ----- */
+
+li:nth-child(5){ /* se modifica solo el numero especificado () */
+    color: violet; 
+    font-weight: bold; 
+}
+
+li:nth-child(3n){ /* se modifica el numero especificado arrancando desde 0 */
+    background-color: orange; 
+}
+
+li:nth-child(2n+1){ /* se modifica uno si otro no */
+    color: tomato;
+}
+
+li:nth-child(even){ /* los numeros pares van a ser verdes */
+    color: green;
+}
+
+li:nth-child(odd){ /* los numeros impares van a ser rojos */ 
+    color: red;
+}
+
+/* ---- Enlaces ---- */
+
+a:link{
+    color: blue; 
+    text-decoration: none;
+}
+
+a:active{
+    color: green; 
+}
+
+a:hover{
+    background-color: purple;
+    color: white; 
+}
+
+a:visited{
+    color: pink; 
+}
+
+/* ----- enlaces ----- */
+a {
+	text-decoration: none;
+}
+
+.fab {
+	color: black;
+	font-size: 3rem;
+}
+.fa-youtube:hover {
+	color: red;
+}
+.fa-twitter:hover {
+	color: lightblue;
+}
+.fa-facebook-f:hover {
+	color: blue;
+}
