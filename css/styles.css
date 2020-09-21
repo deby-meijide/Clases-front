@@ -1,38 +1,39 @@
-body{
-    background-color: lightgrey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.CodoaCodo{
-    border-radius: 50%; 
-    width: 15vw;
-    height: none;
-    margin: 0;   
-}
-
-header {
-    height: 25vh;
+header{
+    height: 30vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black; 
+    background-color: black ; 
 }
 
-h1 {
+h1{
     color: yellow;
     text-align: center;
+    box-sizing: content-box;
+}
+
+.CodoaCodo img{ 
+    width: 15vw;
+    height: none;
+    margin: 0px 2px;
+    padding: 2px 4px;
+    border-radius: 30%;   
 }
 
 nav{
-    position: absolute;
-    top:22%;
+    background-color: lightgrey;
+    width: 100vw;
+    height: auto;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    margin-top: 2px;
-    padding: 0%;
     align-self: flex-start;
 }
 
@@ -42,23 +43,37 @@ li{
     background-color: darkgrey;
 }
 
-li a {
+li a{
     color: white;
     text-align: center;
-    padding: 4px 8px;
     text-decoration: none;
 }
 
 li a:hover{
     background: blue;
-    padding: 2px 4px;
     overflow: hidden;
     box-shadow: none;
 }
 
-div img{
-    width: 100%;
-    height: none; 
-    margin-top: 20px;   
+.dropdown-item{
+    color: white;
 }
 
+.dropdown-item:hover{
+    background-color: blue;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+
+.container{
+    margin-top: 3rem;
+    width: 1vw;
+    height: 3vh;
+    box-sizing: border-box;
+}
+
+.container img{
+    width: 80vw; 
+    height: 60vh;
+}
