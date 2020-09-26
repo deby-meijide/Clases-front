@@ -35,12 +35,15 @@ ul{
     list-style-type: none;
     display: flex;
     align-self: flex-start;
+    box-sizing: border-box;
+    height: 10vh;
 }
 
 li{
     display: inline-block;
     border: 1px solid black;
     background-color: darkgrey;
+    height: 10vh;
 }
 
 li a{
@@ -67,13 +70,13 @@ li a:hover{
 
 
 .container{
-    margin-top: 3rem;
-    width: 1vw;
-    height: 3vh;
+    margin-top: 4rem;
+    width: auto;
+    height: 40vh;
     box-sizing: border-box;
 }
 
 .container img{
-    width: 80vw; 
-    height: 60vh;
+    width: 100vw; 
+    height: 80vh;
 }
