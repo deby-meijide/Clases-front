@@ -1,6 +1,6 @@
 .flex-container{
-    width: 50vw;
-    height: 50vh;
+    width: 100vw;
+    height: 100vh;
     display: inline-flex; 
     flex-direction: row; /* row: valor por defecto | column: hace el eje principal (main axis) sea vertical | row-reverse | column-reverse*/
     justify-content: flex-start; /* alinea los elementos en el eje principal (main axis) */
@@ -11,7 +11,8 @@
     color: yellow;
     width: 20vw;
     height: 35vh;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin: 0px 10px; 
 }
 
 .flex-item2{
